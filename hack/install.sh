@@ -74,7 +74,7 @@ install_required_packages() {
 }
 
 install_arkade(){
-  curl -sLS https://get.arkade.dev | $SUDO sh
+  curl -sLS https://raw.githubusercontent.com/alexellis/arkade/master/get.sh | $SUDO sh
   arkade --help
 }
 
